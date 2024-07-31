@@ -1,4 +1,4 @@
-package br.com.prog2.rh.persistencia;
+package br.com.prog2.rh.persistence;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

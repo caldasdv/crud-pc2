@@ -3,8 +3,8 @@ package br.com.prog2.rh.controller;
 import java.util.List;
 
 import br.com.prog2.rh.model.Empregado;
-import br.com.prog2.rh.persistencia.EmpregadoDAO;
-import br.com.prog2.rh.persistencia.EmpregadoDAOImp;
+import br.com.prog2.rh.persistence.EmpregadoDAO;
+import br.com.prog2.rh.persistence.EmpregadoDAOImp;
 
 public class EmpregadoController {
     public String inserir(Empregado emp) {

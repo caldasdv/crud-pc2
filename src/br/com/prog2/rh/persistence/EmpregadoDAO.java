@@ -1,6 +1,8 @@
-package br.com.prog2.rh.persistencia;
-import java.util.List;
+package br.com.prog2.rh.persistence;
+
 import br.com.prog2.rh.model.Empregado;
+
+import java.util.List;
 public interface EmpregadoDAO {
     public String inserir(Empregado emp);
     public String alterar(Empregado emp);

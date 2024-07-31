@@ -1,4 +1,6 @@
-package br.com.prog2.rh.persistencia;
+package br.com.prog2.rh.persistence;
+
+import br.com.prog2.rh.model.Empregado;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,7 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import br.com.prog2.rh.model.Empregado;
+
 public class EmpregadoDAOImp implements EmpregadoDAO {
     @Override
     public String inserir(Empregado emp) {

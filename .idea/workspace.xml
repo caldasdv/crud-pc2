@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75d01881-5e46-48b3-8e51-4a9008135dcd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crud-pc2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/prog2/rh/controller/EmpregadoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/prog2/rh/model/Empregado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/prog2/rh/persistencia/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/prog2/rh/persistencia/EmpregadoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/prog2/rh/persistencia/EmpregadoDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/prog2/rh/view/Teste.java" afterDir="false" />
+    <list default="true" id="75d01881-5e46-48b3-8e51-4a9008135dcd" name="Changes" comment="Fist Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/prog2/rh/controller/EmpregadoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/prog2/rh/controller/EmpregadoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/prog2/rh/persistencia/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/prog2/rh/persistence/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/prog2/rh/persistencia/EmpregadoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/prog2/rh/persistence/EmpregadoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/prog2/rh/persistencia/EmpregadoDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/prog2/rh/persistence/EmpregadoDAOImp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "caldasdv"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/caldasdv/crud-pc2.git",
+    "accountId": "8e3b1e16-65ab-4537-bada-969ecbac6794"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -50,7 +54,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/david/Downloads/postgresql-42.7.3.jar",
+    "last_opened_file_path": "/home/david/Documents/crud-pc2/src/br/com/prog2/rh/persistence",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +71,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/br/com/prog2/rh/persistence" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.prog2.rh.view.Teste" />
@@ -103,11 +112,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722394575354</updated>
-      <workItem from="1722394576336" duration="2218000" />
+      <workItem from="1722394576336" duration="2660000" />
     </task>
+    <task id="LOCAL-00001" summary="Fist Commit">
+      <option name="closed" value="true" />
+      <created>1722396982325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722396982325</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fist Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fist Commit" />
   </component>
 </project>
